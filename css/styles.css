@@ -30,6 +30,9 @@ h6,
 p {
   margin: 0;
 }
+img {
+  display: block;
+}
 .link {
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -41,6 +44,10 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .container {
   width: 1200px;
@@ -176,7 +183,55 @@ justify-content: center;
 |============================
 */
 .info-list{
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding-top: 94px;
+  padding-left: 270px;
+  padding-bottom: 75px;
+margin-right: 30px;
+}
+.info-about,
+.info-about-text {
+  margin-right: 30px;
+}
+.info-about{
+margin-bottom: 10px;}
+  .description-info {
+  
+  }
+  .about-list {
+  display: flex;
+  }
+.about-item {
+ max-width: 400px;
+  min-width: 340px;
+  min-height: 24px;
+  padding: 10px 32px;
+  margin-right: 30px;
+  margin-top: 50px;
+
+}
+.container-team {
+  background-color: #F5F4FA;
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
+.about-tim{
+display: flex;
+gap: 30px;
+margin-top: 50px;
+}
+.team-wrapper {
+  /* border: 1px solid salmon;
+  border-top: none; */
+  outline: 3px solid #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.tim-info {
+  margin-bottom: 10px;
 }
 .general-info {
   font-family: var(--main-font);
